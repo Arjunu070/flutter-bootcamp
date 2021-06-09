@@ -57,13 +57,13 @@ class Home extends StatelessWidget {
               spacing: 17,
               runSpacing: 17,
               children: [
-                Item(title: 'Expand', icon: Icons.home, color: 0xffFED525),
-                Item(title: 'Collection', icon: Icons.star, color: 0xffFD637B),
+                Item(title: 'Skills', icon: Icons.home, color: 0xffFED525),
+                Item(title: 'Interests', icon: Icons.star, color: 0xffFD637B),
                 Item(
-                    title: 'Incomes',
+                    title: 'Hobbies',
                     icon: Icons.monetization_on,
                     color: 0xff21CDFF),
-                Item(title: 'Sales', icon: Icons.show_chart, color: 0xff7585F6)
+                Item(title: 'Collections', icon: Icons.show_chart, color: 0xff7585F6)
               ],
             ),
           ])),
